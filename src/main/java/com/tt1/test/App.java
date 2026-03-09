@@ -3,7 +3,19 @@ package com.tt1.test;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ * Clase principal que inicia la aplicación ToDo.
+ * Esta clase contiene el método main que demuestra el funcionamiento básico
+ * de la gestión de tareas, incluyendo su creación, listado y completado.
+ */
 public class App {
+    /**
+     * Punto de entrada de la aplicación.
+     * Crea un servicio de tareas, añade algunas tareas de ejemplo, 
+     * muestra las pendientes, completa una y simula el envío de un correo.
+     * 
+     * @param args Argumentos de la línea de comandos (no se utilizan).
+     */
     public static void main(String[] args) {
         System.out.println("--- Iniciando Aplicación ToDo ---");
         
